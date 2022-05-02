@@ -1,0 +1,115 @@
+body{
+    padding: 0;
+    margin:0;
+    background-color: #358597;
+}
+h1{
+    text-align: center;
+    font-variant: small-caps;
+}
+#add_button{
+display:block;
+width: 30px;
+height: 30px;
+
+}
+input[type="text"]{
+    text-align: center;
+    padding: 5px;
+    margin: 10px;
+    color: black;
+    border-radius: 5px;
+    border: solid black 2px;
+    background-color: aliceblue;
+}
+input[type="text"]:hover{
+color: aliceblue;
+background-color:black;
+}
+form{
+    padding-top: 10px;
+    text-align: center;
+}
+button{
+    margin-top: 10px;
+    text-align: center;
+    color: black;
+    background-color:white;
+    border: solid black 1px;
+    border-radius: 5px;
+
+}
+button:hover{
+    color:white;
+    background-color: black;
+}
+footer{
+    text-align: center;
+    padding: 20px 0px 25px;
+    margin-top :260px;
+    background-color: black;
+    color: white;
+    position: relative;
+}
+
+@media only screen and (max-width:600px)
+{
+    body{
+        padding: 0;
+        margin:0;
+        background-color: #358597;
+    }
+    h1{
+        text-align: center;
+        font-variant: small-caps;
+        padding-left: 30px;
+    }
+    #add_button{
+    display:block;
+    width: 30px;
+    height: 30px;
+    
+    }
+    input[type="text"]{
+        text-align: center;
+        padding: 5px;
+        margin: 0px;
+        color: black;
+        border-radius: 5px;
+        border: solid black 2px;
+        background-color: whitesmoke;
+    }
+    form{
+        padding-top: 10px;
+        text-align: center;
+    }
+    button{
+        margin-top: 10px;
+        text-align: center;
+        color: black;
+        background-color:white;
+        border: solid black 1px;
+        border-radius: 5px;
+    
+    }
+    button:hover{
+        color:white;
+        background-color: black;
+    }
+    #get_form{
+        margin-bottom: 10px;
+        line-height: 5px;
+    }
+    footer{
+        text-align: center;
+        padding: 10px 0px;
+        margin-top :221px;
+        background-color: black;
+        color: white;
+    }
+    input[type="text"]:hover{
+        color: aliceblue;
+        background-color:black;
+        }
+
+}
